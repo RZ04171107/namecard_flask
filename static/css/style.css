@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Noto Sans Mono', 'Silkscreen', monospace;
+  /* other font families: */
+  /* font-family: 'Indie Flower', cursive;
+  font-family: 'Sacramento', cursive;
+font-family: 'Noto Sans Mono', monospace; */
+}
+nav {
+  font-family: 'Silkscreen', monospace;
+  background-color: #e4f9f5;
+  position: sticky;
+  top: 0;
+  color: #095457;
+  display: flex;
+  font-size: 1.3rem;
+  height: 6vh;
+  align-items: center;
+}
+.name-div {
+  flex-grow: 1;
+}
+ul {
+  flex-grow: 1.5;
+  display: flex;
+}
+li {
+  justify-content: space-evenly;
+}
+
+ul,
+li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+.nav-item {
+  text-decoration: none;
+}
+.nav-item:hover {
+  color: #11999e;
+  text-decoration: underline;
+}
+
+h1 {
+  margin-block-start: auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+}
+h2 {
+  font-family: 'Silkscreen', monospace;
+  font-size: 2.5rem;
+  color: #095457;
+}
+h3 {
+  color: #11999e;
+}
+a {
+  color: #095457;
+}
+p {
+  line-height: 1.5;
+}
+.top {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+}
+.bottom {
+  background-color: #e4f9f5;
+}
+.cloud:nth-of-type(1) {
+  position: absolute;
+  right: 40rem;
+  top: 20rem;
+}
+.cloud:nth-of-type(2) {
+  position: absolute;
+}
+.child-row {
+  width: 45vw;
+}
+.genre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
